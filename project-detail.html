@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-weight='bold' font-family='sans-serif' fill='%23800080'>AM</text></svg>">
+
+    <title>Project Details - Scripthara - Video Script Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">AM</a>
+            <nav class="nav-menu">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html#about">About Me</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact" class="btn">Contact Me</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                &#9776; 
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-detail-section">
+            <div class="container">
+                <h1 class="project-title">Scripthara - Video Script Generator</h1>
+
+                <img src="assets/images/project1.png" alt="A large screenshot of the Video Script Generator project" class="project-detail-image">
+
+                <div class="project-detail-content">
+                    <h2>Full Description</h2>
+                    <p>
+                        Scripthara is an AI-powered web application designed to streamline the content creation process for social media creators. By integrating Google's Gemini AI, the tool transforms simple user topics into structured, time-synchronized video scripts tailored for platforms like TikTok, Instagram Reels, and YouTube Shorts. Users can define specific durations or use natural language inputs, and the system intelligently parses these requests to deliver production-ready scripts complete with visual cues, voiceovers, and precise timing markers, all wrapped in a responsive and interactive interface.
+                    </p>
+
+                    <h2>Problem I Solved</h2>
+                    <p>
+                        Content creators often face significant challenges with writer's block and the technical difficulty of pacing scripts to fit strict short-form video time limits. Scripthara addresses this by automating the creative structuring process, eliminating the guesswork involved in timing spoken dialogue. It provides a reliable solution that instantly converts raw ideas into formatted, actionable content, allowing creators to focus on filming rather than calculating word counts or formatting text for teleprompters.
+                    </p>
+
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li><strong>AI-Powered Generation:</strong> Uses Google Gemini to create context-aware scripts with precise timing.</li>
+                        <li><strong>Smart Duration Parsing:</strong> Automatically detects time constraints from natural language inputs (e.g., "Write a 5 minute script").</li>
+                        <li><strong>Performance Caching:</strong> Implements an in-memory Key-Value store to cache results and reduce API latency.</li>
+                        <li><strong>Structured Formatting:</strong> Delivers distinct sections for Time Markers, Visuals, and Voiceovers.</li>
+                        <li><strong>Resilient Fallbacks:</strong> Ensures functionality continues with template scripts even if the AI service is unavailable.</li>
+                        <li><strong>Interactive UI:</strong> Features smooth animations, particle backgrounds, and one-click clipboard copying.</li>
+                    </ul>
+
+                    <h2>Technologies Used</h2>
+                    <ul>
+                        <li><strong>Frontend:</strong> Next.js, React, Framer Motion, React TSParticles.</li>
+                        <li><strong>Backend:</strong> Next.js API Routes, Node.js, Google Generative AI SDK.</li>
+                        <li><strong>Styling:</strong> Custom CSS with variable-based theming and Arvo typography.</li>
+                        <li><strong>Utilities:</strong> Regex for string parsing and in-memory Map for caching.</li>
+                    </ul>
+
+                    <h2>What I Learned</h2>
+                    <p>
+                        Developing Scripthara provided hands-on experience in integrating Generative AI into a production workflow, specifically highlighting the importance of prompt engineering to enforce strict structural output from LLMs. I deepened my understanding of Next.js server-side API routes and hybrid state management, while also learning to implement efficient caching strategies to optimize API usage. Additionally, handling natural language inputs through Regex and creating graceful fallback systems significantly improved my ability to build resilient, user-centric applications.
+                    </p>
+                </div>
+
+                <a href="index.html#projects" class="btn-secondary">Back to All Projects</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Abdulmalik Memud. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

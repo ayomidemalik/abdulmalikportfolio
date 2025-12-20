@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Abdulmalik Memud, a Software Engineer specializing in backend systems, AI integration, and full-stack development.">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-weight='bold' font-family='sans-serif' fill='%23800080'>AM</text></svg>">
+
+    <title>Abdulmalik Memud - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">AM</a>
+            <nav class="nav-menu">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="btn">Contact Me</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                &#9776; 
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h1>Hi, I'm Abdulmalik Memud</h1>
+                    <p class="about-subtitle">
+                        I am a Software Engineer who specializes in building secure, high-performance backend systems and full-stack applications for the finance and tech industries.
+                    </p>
+                    <p>
+                        My technical focus involves using modern backend technologies and integrating AI to solve complex problems and create efficient, user-friendly software. I am passionate about delivering robust solutions from concept to deployment and am currently seeking new opportunities.
+                    </p>
+                </div>
+                <img src="assets/images/profile.jpg" alt="A photo of Abdulmalik Memud" class="profile-picture">
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="assets/images/project1.png" alt="Screenshot of Scripthara - Video Script Generator project" class="project-image">
+                        <div class="project-info">
+                            <h3>Scripthara - Video Script Generator</h3>
+                            <p class="project-description">An AI-powered tool that generates engaging video scripts based on user inputs.</p>
+                            <p class="tech-stack"><strong>Tech Stack:</strong> Next.js, React, Node.js, Express, Google Generative AI, OpenAI, Vercel KV</p>
+                            <div class="project-links">
+                                <a href="project-detail.html" class="btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="assets/images/project2.png" alt="Screenshot of Mindrax - AI Idea Generator project" class="project-image">
+                        <div class="project-info">
+                            <h3>Mindrax - AI Idea Generator</h3>
+                            <p class="project-description">Generates tailored content ideas for blogs, tweets, or Reels based on a user's niche.</p>
+                            <p class="tech-stack"><strong>Tech Stack:</strong> Next.js, React, Google Generative AI, Tailwind CSS</p>
+                            </div>
+                    </div>
+
+                    <div class="project-card">
+                         <img src="assets/images/project3.png" alt="Screenshot of Snatchr - Video Downloader project" class="project-image">
+                        <div class="project-info">
+                            <h3>Snatchr - Video Downloader</h3>
+                            <p class="project-description">A versatile application for downloading videos from various platforms with quality options.</p>
+                            <p class="tech-stack"><strong>Tech Stack:</strong> Next.js, React, Node.js, Express, Tailwind CSS, yt-dlp</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>I am currently available for new opportunities. Feel free to send me a message!</p>
+                <a href="mailto:memudabdulmalik11@gmail.com" class="btn">Email Me</a>
+                <a href="https://wa.me/+2348079253686" class="btn-secondary">WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Abdulmalik Memud. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
