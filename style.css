@@ -212,8 +212,7 @@ section {
 
 .project-image {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    /* REMOVED fixed height and object-fit to allow natural aspect ratio */
 }
 
 .project-info {
