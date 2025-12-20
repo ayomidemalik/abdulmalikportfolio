@@ -14,6 +14,6 @@ Abdulmalik Ayomide Memud
 
 The live version of this website is deployed.
 
-**Live URL:** [PASTE YOUR LIVE URL HERE AFTER DEPLOYING]
+**Live URL:** https://abdulmalikportfolio-alpha.vercel.app/
 
-**GitHub Repo Link:** [PASTE YOUR GITHUB REPO LINK HERE]
+**GitHub Repo Link:** https://github.com/ayomidemalik/abdulmalikportfolio
