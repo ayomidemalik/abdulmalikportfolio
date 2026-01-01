@@ -53,7 +53,10 @@ img {
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     background-color: var(--primary-color);
     color: var(--text-on-primary); 
     padding: 12px 28px;
@@ -71,7 +74,10 @@ img {
 }
 
 .btn-secondary {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     background-color: transparent;
     color: var(--text-main);
     padding: 12px 28px;
@@ -131,6 +137,7 @@ img {
 
 .nav-links .btn {
     padding: 8px 20px;
+    color: var(--text-on-primary);
 }
 
 .nav-toggle {
@@ -159,6 +166,13 @@ section {
 
 .about-text {
     flex: 2;
+}
+
+.about-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-main);
 }
 
 .about-text h1 {
@@ -286,6 +300,29 @@ section {
     color: var(--text-main);
 }
 
+#contact .btn-linkedin {
+    background-color: #0077b5;
+    color: #ffffff;
+    border-color: #0077b5;
+}
+
+#contact .btn-linkedin:hover {
+    background-color: #005582;
+    border-color: #005582;
+    color: #ffffff;
+}
+
+#contact .btn-github {
+    background-color: #2dba4e;
+    color: #ffffff;
+    border-color: #2dba4e;
+}
+
+#contact .btn-github:hover {
+    background-color: #259a40;
+    border-color: #259a40;
+    color: #ffffff;
+}
 
 .project-detail-section {
     padding: 60px 0;
@@ -398,6 +435,10 @@ footer {
         flex-direction: column-reverse; 
         text-align: center;
     }
+    
+    .about-heading {
+        text-align: center;
+    }
 
     .profile-picture {
         max-width: 200px; 
@@ -430,8 +471,8 @@ footer {
         grid-template-columns: 1fr; 
     }
 
-    #contact .btn, #contact .btn-secondary {
-        display: block;
+    #contact .btn, #contact .btn-secondary, #contact .btn-linkedin, #contact .btn-github {
+        display: flex;
         margin: 10px auto; 
     }
 
